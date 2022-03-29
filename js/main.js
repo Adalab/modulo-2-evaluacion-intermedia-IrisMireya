@@ -17,7 +17,7 @@ function getRandomNumber(max) {
 }
     function checkNum() {
     const num = parseInt(select.value);
-    const numAleat =getRandomNumber(6) ;
+    const numAleat = getRandomNumber(6) ;
     console.log("Input number: " + num);
     console.log("Num comp: " + numAleat);
    
