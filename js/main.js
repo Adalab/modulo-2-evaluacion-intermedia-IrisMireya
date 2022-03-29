@@ -8,18 +8,19 @@ const sum = document.querySelector('.js-inputSum');
 
 btn.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log ('holiss');
+    console.log ('¡¡Ha hecho click!!');
 });
 
 function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
-    
+    const numAleact = document.querySelector('.js-play');
+
     if(numAleact % 2 === 0) {
-        mainElement.classList.add('Has ganado el doble de lo apostado  ');
-        mainElement.classList.remove('Has perdido lo apostado');
+        numAleact.classList.add('¡¡¡Has ganado el doble de lo apostado!!!');
+        numAleact.classList.remove('¡Has perdido lo apostado!');
     }
     else{
-        mainElement.classList.add('Has perdido lo apostado');
-        mainElement.classList.remove('Has ganado el doble de lo apostado ');
+        numAleact.classList.add('¡Has perdido lo apostado!');
+        numAleact.classList.remove('¡¡¡Has ganado el doble de lo apostado!!!');
     }
   }
