@@ -1,0 +1,15 @@
+*{
+    color: rgba(36, 33, 33, 0.795);  
+}
+
+button{
+    background-color: #14d9c4;
+    color: white;
+    border: 10px black;
+    border-radius: 5px;
+    width: 44px;
+    height: 30px;
+}
+.input1{
+    width: 50%;
+}
