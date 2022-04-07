@@ -2,6 +2,18 @@
     color: rgba(36, 33, 33, 0.795);
     font-family: 'Open Sans';
 }
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(
+    circle,
+    rgb(224, 165, 191) 0%,
+    rgb(214, 87, 193) 100%);
+}
 
 button{
     background-color: #14d9c4;

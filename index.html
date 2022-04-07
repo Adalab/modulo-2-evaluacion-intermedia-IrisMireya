@@ -20,7 +20,7 @@
         </div>
         <form class="form js-form" action="">
             <select class="select js-select">
-                <option selected disabled>Que número apuestas del 1 al 6</option>
+                <option value="" selected disabled>Que número apuestas del 1 al 6</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -28,10 +28,12 @@
                 <option value="5">5</option>
                 <option value="6">6</option>
             </select>
-            <input class="Text " type="text" placeholder="¿Cuánto apuestas?"/>
+            <input class="amount js-amount" type="text" placeholder="¿Cuánto apuestas?"/>
             <button class="button js-btn">Jugar</button>
             <h2 class="play js-inputText" >¡Vamos a Jugar!</h2>
-            <input class="sum js-inputSum" type="Sum" placeholder="Saldo:" />
+            <p>Saldo: <span class="js-balance input">50</span></p>
+            <p class="js-winner"></p>
+            <button class= "js-reset">Reset</button>
         </form>
     </main>
     <script src="./js/main.js"></script>
